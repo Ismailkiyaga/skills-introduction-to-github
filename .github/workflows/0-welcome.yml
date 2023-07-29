@@ -33,7 +33,7 @@ jobs:
 
   on_welcome:
     name: On welcome
-    needs: get_current_step
+    needs: get_current_get
 
     # We will only run this action when:
     # 1. This repository isn't the template repository.
